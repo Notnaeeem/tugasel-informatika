@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 4;
+    padding: 4;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #5e5e5e;
+  }
+  
+  .active {
+    background-color: #414141;
+  }
+
+  article p{
+    font-family: 'Courier New', monospace;
+  }
+
+  img{
+    border-radius: 60%;
+  }
+
+  .content{
+    text-align: center; align-items: center;
+    font-family:Lucida Sans;
+  }
+
+  section p{
+    font-family: Lucida Console;
+  }
+  .footer{
+    color:aqua;
+    background-color: #333;
+    text-align: center;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
